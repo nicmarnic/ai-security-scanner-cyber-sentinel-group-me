@@ -247,6 +247,7 @@ Se avete già creato una chiave SSH, potete utilizzare anche il seguente comando
 git clone utente@server:/pfad.git
 Configurare nome ed e-mail con comandi Git
 Per poter lavorare a un progetto avete bisogno di un nome utente e un indirizzo e-mail valido. Per farlo utilizzate il seguente comando Git.
+
 Configurate il vostro nome utente:
 git config --global user.name "Nome di esempio"
 Verificate che il nome utente appena creato sia corretto:
@@ -255,28 +256,35 @@ Associatevi il vostro indirizzo e-mail:
 git config --global user.email "indirizzoemail@esempio.it"
 Verificate l’indirizzo e-mail corrispondente così:
 git config --global user.email
+
 Visualizzate un riepilogo di tutti i dati con un solo comando:
 git config --global --list
 Resoconto e modifiche
 Alcuni importanti comandi Git vi facilitano il lavoro nel e con il repository. Per ottenere una visione d’insieme del repository avete a disposizione i seguenti comandi:
 git close esempiogit@esempio.it:Repository.get
+
 Per un resoconto dello stato locale e delle modifiche non ancora applicate, invece, utilizzate questo:
 git status
+
 Le modifiche sono evidenziate in rosso.
 Potete verificare le differenze tra il commit in corso e la versione precedente con il comando git diff:
 git diff HEAD
+
 I comandi Git per i repository
 Per salvare soltanto le modifiche nel repository locale, avete bisogno dei seguenti comandi Git.
 Aggiungete tutti i dati nuovi, modificati o cancellati con questo comando:
 git add
+
 Se, invece, volete applicare soltanto alcune specifiche modifiche al vostro commit dovete aggiungere al comando anche le parentesi quadre:
 git add [ file_1 file_2 file_3 | file-pattern ]
 Convalidate git commit nel modo seguente:
 git commit
+
 Se volete anche fornire delle spiegazioni in relazione a un passaggio di lavoro, potete farlo in questo modo:
 git commit -m "Qui scrivete il vostro messaggio"
 Con git log potete visualizzare i commit attualmente presenti nel vostro repository locale:
 git log
+
 I comandi Git per i rami
 I seguenti comandi Git servono per lavorare con i rami, o in inglese “branch”.
 Per elencare tutti i rami:
