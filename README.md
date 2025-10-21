@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 AI Security Scanner
+=======
+🛡️ AI Security Scanner
+>>>>>>> d3514c5284117cf91a84129a2fc5af309788cd86
 
 AI Security Scanner è un progetto open-source che combina la potenza dell’intelligenza artificiale con strumenti di network scanning come Nmap, per rendere le analisi di sicurezza più intelligenti, leggibili e automatizzate.
 
