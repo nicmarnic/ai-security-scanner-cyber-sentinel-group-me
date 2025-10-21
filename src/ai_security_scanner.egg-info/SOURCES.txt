@@ -4,10 +4,12 @@ src/ai_scanner/__init__.py
 src/ai_scanner/ai_engine/__init__.py
 src/ai_scanner/ai_engine/risk_score.py
 src/ai_scanner/ai_engine/rules.py
+src/ai_scanner/api_web/app.py
 src/ai_scanner/cli/ai_scanner.py
+src/ai_scanner/gui/tk_app.py
 src/ai_scanner/parser/__init__.py
 src/ai_scanner/parser/models.py
-src/ai_scanner/parser/xml_parser.py
+src/ai_scanner/parser/nmap_xml_parser.py
 src/ai_scanner/reporter/__init__.py
 src/ai_scanner/reporter/html_reporter.py
 src/ai_scanner/reporter/pdf_reporter.py
