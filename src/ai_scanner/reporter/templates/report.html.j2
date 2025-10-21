@@ -1,0 +1,43 @@
+<!-- src/ai_scanner/reporter/templates/report.html.j2 -->
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>AI Security Scanner - Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { color: #334; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 18px; }
+    th, td { border: 1px solid #ccc; padding: 6px 8px; font-size: 14px; }
+    th { background: #f0f0f7; text-align: left; }
+    .score { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>AI Security Scanner - Report</h1>
+  {% for h in doc.hosts %}
+    <h2>Host: {{ h.address }} ({{ h.state }})</h2>
+    <p class="score">Rischio: {{ h.ai.score }} - {{ h.ai.summary }}</p>
+    <ul>
+      {% for f in h.ai.findings %}
+      <li>{{ f }}</li>
+      {% endfor %}
+    </ul>
+    <table>
+      <thead><tr><th>Proto</th><th>Porta</th><th>Stato</th><th>Servizio</th><th>Prodotto</th><th>Versione</th></tr></thead>
+      <tbody>
+      {% for p in h.ports %}
+        <tr>
+          <td>{{ p.proto }}</td>
+          <td>{{ p.port }}</td>
+          <td>{{ p.state }}</td>
+          <td>{{ p.name or '' }}</td>
+          <td>{{ p.product or '' }}</td>
+          <td>{{ p.version or '' }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+</body>
+</html>
