@@ -13,6 +13,8 @@ Membri del team:
 
 - Rosita Lavarra
 
+- Nicola Marella
+
 - Lorenzo
 
 - Sonia Rendina
