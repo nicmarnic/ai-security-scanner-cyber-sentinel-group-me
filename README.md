@@ -1,23 +1,24 @@
+
 Team
 
 Il progetto AI Security Scanner è sviluppato da un gruppo di appassionati di cybersecurity e intelligenza artificiale che credono in un futuro in cui la sicurezza sia automatizzata, trasparente e accessibile a tutti.
 
 Membri del team:
 
- Ivan Robert D'arcangelo
+- Ivan Robert D’Arcangelo
 
-Davide Delli Santi
+- Davide Delli Santi
 
-Salvatore Scaramuzzi
+- Salvatore Scaramuzzi
 
-Rosita Lavarra
+- Rosita Lavarra
 
-Lorenzo
+- Lorenzo
 
-Sonia Rendina 
+- Sonia Rendina
 
-Vinicius Tadeu Anselmo Leite
-  
+- Vinicius Tadeu Anselmo Leite
+
 🛡️ AI Security Scanner
 
 AI Security Scanner è un progetto open-source che combina la potenza dell’intelligenza artificiale con strumenti di network scanning come Nmap, per rendere le analisi di sicurezza più intelligenti, leggibili e automatizzate.
