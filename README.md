@@ -4,19 +4,19 @@ Il progetto AI Security Scanner è sviluppato da un gruppo di appassionati di cy
 
 Membri del team:
 
-- Ivan Robert D'arcangelo
+ Ivan Robert D'arcangelo
 
-- Davide Delli Santi
+Davide Delli Santi
 
-- Salvatore Scaramuzzi
+Salvatore Scaramuzzi
 
-- Rosita Lavarra
+Rosita Lavarra
 
-- Lorenzo
+Lorenzo
 
-- Sonia Rendina 
+Sonia Rendina 
 
-- Vinicius Tadeu Anselmo Leite
+Vinicius Tadeu Anselmo Leite
   
 🛡️ AI Security Scanner
 
