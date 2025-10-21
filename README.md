@@ -170,6 +170,4 @@ Usa il tool solo su asset per cui hai autorizzazione esplicita. Le scansioni pos
 - Branch per feature → test → PR con descrizione chiara.
 - Aggiorna README e test quando cambi opzioni/parametri.
 
-## Licenza
-Scegli e indica qui la licenza (MIT/Apache-2.0, ecc.).
-
+##Licenza
