@@ -1,7 +1,11 @@
 README.md
 pyproject.toml
+src/ai_engine/init.py
+src/ai_engine/pplx_client.py
 src/ai_scanner/__init__.py
 src/ai_scanner/ai_engine/__init__.py
+src/ai_scanner/ai_engine/init.py
+src/ai_scanner/ai_engine/pplx_client.py
 src/ai_scanner/ai_engine/risk_score.py
 src/ai_scanner/ai_engine/rules.py
 src/ai_scanner/api_web/app.py
@@ -19,6 +23,8 @@ src/ai_scanner/scanner/scanner_config.py
 src/ai_scanner/storage/__init__.py
 src/ai_scanner/storage/json_store.py
 src/ai_scanner/storage/sqlite_store.py
+src/ai_scanner/web/app.py
+src/ai_scanner/web/init.py
 src/ai_security_scanner.egg-info/PKG-INFO
 src/ai_security_scanner.egg-info/SOURCES.txt
 src/ai_security_scanner.egg-info/dependency_links.txt

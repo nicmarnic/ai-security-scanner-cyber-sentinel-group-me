@@ -18,6 +18,13 @@
   {% for h in doc.hosts %}
     <h2>Host: {{ h.address }} ({{ h.state }})</h2>
     <p class="score">Rischio: {{ h.ai.score }} - {{ h.ai.summary }}</p>
+    
+    {% if h.ai_api_summary %}
+      <h3>Sintesi AI</h3>
+      <pre>{{ h.ai_api_summary }}</pre>
+    {% endif %}
+    
+    
     <ul>
       {% for f in h.ai.findings %}
       <li>{{ f }}</li>
